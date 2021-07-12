@@ -101,6 +101,7 @@ ul,li {
   }
 .modal {
   height: 85vh;
+  position: relative;
 }
   #upper-modal {
    background-color: aqua; 
@@ -110,8 +111,16 @@ ul,li {
     background-color: burlywood;
     height: calc(100% / 2);
   }
-  // #middle-modal {
-  //   background-color: beige;
-  //   width: 100%;
-  //   border-radius: 50%;
-  // }
+  #middle-modal {
+    width: 30%;
+    max-width: 25%;
+    min-width: 25%;
+    height: 40%;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
